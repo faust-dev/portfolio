@@ -1,0 +1,22 @@
+colores primarios originales:
+--color-claro: #e3e1d2;
+    --color-oscuro: #303030;
+
+
+Ideas:
+
+Agregar certificados como el de FCC Web responsive design en una
+nueva seccion de proyectos con previsualizacion como tenia 
+maxiprograma. Luego agregar el de JS de FCC y asi...
+
+Poner boton que pase el portfolio a version ingles...
+
+
+Nueva descripcion:
+
+I'm constantly learning new skills for web development. Currently studying at Free Code Camp, finishing the course "Javascript Algorithms and Data Structures Certification". I also studied at UTN Regional Pacheco, Buenos Aires, Argentina for the title Superior Technician in Programming.  I have some experience on front end basics (HTML, CSS, and the Joomla CMS) working at the same university I studied for maintaining his principal website. At the moment, with the projection of expanding my knowledge with the rest of the courses at Free Code Camp.
+
+
+Si no se que mas poner puedo hacer seccion aparte o un pequeño
+espacio con la musica que me gusta 
+<iframe style="border-radius:12px" src="https://open.spotify.com/embed/playlist/36YsxuPcpnAGJznIyAU4FB?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>

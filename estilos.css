@@ -1,0 +1,350 @@
+:root {
+    --color-claro: #799e5a;
+    --color-oscuro: #303030;
+}
+
+html {
+    scroll-behavior: smooth;
+    line-height: 2rem;
+}
+
+body {
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+header {
+    height: 10vh;
+    background-color: var(--color-claro);
+    display: flex;
+    align-items: center;
+    padding-left: 25px;
+    color: var(--color-oscuro);
+}
+
+#sfcnkee6z6zlbgkzh6n5tx9trg8wywfmnwe {
+    position: absolute;
+    right: 10px;
+    top: 20px;
+}
+
+div {
+    box-sizing: border-box;
+}
+
+.caja-cara img {
+    border-radius: 20px;
+    height: 100%;
+}
+
+.seccion-presentacion {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height: 90vh;
+    background-color: var(--color-oscuro);
+    color: white;
+}
+
+.caja-central {
+    margin: 13vh;
+    width: 70%;
+    min-width: 700px;
+    display: flex;
+    flex-direction: row;
+    border-radius: 20px;
+    overflow: auto;
+
+}
+
+.caja-cara {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40%;
+    background-color: #ffff;
+}
+
+.caja-presentacion {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 60%;
+    background-color: var(--color-claro);
+    color: #303030;
+    padding: 20px 20px 30px 15px;
+}
+
+.seccion-sobre-mi {
+    background-color: var(--color-claro);
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #303030;
+    padding-left: 20%;
+    padding-right: 20%;
+    scroll-snap-align: start;
+}
+
+.seccion-aptitudes {
+    background-color: var(--color-oscuro);
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: var(--color-claro);
+    padding-left: 20%;
+    padding-right: 20%;
+    padding-top: 20px;
+    padding-bottom: 40px;
+    scroll-snap-align: start;
+}
+
+.seccion-tecnologias {
+    background-color: var(--color-claro);
+    height: 57vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #303030;
+    padding-left: 20%;
+    padding-right: 20%;
+    padding-top: 20px;
+    padding-bottom: 40px;
+    scroll-snap-align: start;
+}
+
+.tech-list {
+    display: flex;
+    justify-content: center;
+    /* align-content: center; */
+    padding: 10px;
+    flex-wrap: wrap;
+    width: 90%;
+}
+
+.tech {
+    height: 6rem;
+    margin: 1.5rem;
+}
+
+.seccion-cursos-proyectos {
+    background-color: var(--color-oscuro);
+    height: 75vh;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    align-items: center;
+    color: #F2F2F2;
+    padding-top: 25px;
+}
+
+.cursos-proyectos {
+    width: 75%;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 10px;
+}
+
+.card {
+    text-align: center;
+    width: 30%;
+    border: solid #F2F2F2 1px;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.card img {
+    width: 100%;
+}
+
+.card a,
+footer a {
+    color: rgb(255, 254, 254);
+}
+
+.red-social {
+    height: 3.75rem;
+    border-radius: 10px;
+    margin: 0 40px;
+}
+
+footer {
+    background-color: var(--color-claro);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: var(--color-oscuro);
+    height: 25vh;
+}
+
+.contacto {
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    padding-bottom: 27px;
+    padding-top: 8px;
+}
+
+@media (max-width: 1000px) {
+    .container {
+        text-align: justify;
+        font-size: 1rem;
+        line-height: 1.2rem;
+    }
+
+    .seccion-presentacion {
+        height: fit-content;
+    }
+
+    .caja-central {
+        width: 100%;
+        min-width: 0;
+        height: fit-content;
+        flex-direction: column;
+        margin: auto;
+        border-radius: 0;
+    }
+
+    .caja-cara {
+        width: 100%;
+        background-color: var(--color-oscuro);
+        margin-top: 50px;
+    }
+
+    .caja-cara img {
+        border-radius: 200px;
+        width: 100%;
+    }
+
+    /* img:hover {
+        width: 2rem;
+        height: 2rem;
+    } */
+
+    .caja-presentacion {
+        width: 100%;
+        background-color: var(--color-oscuro);
+        color: var(--color-claro);
+        /* padding-right: 1.2rem; */
+    }
+
+    .tech-list {
+        padding: 0;
+        flex-wrap: wrap;
+        /* width: 100%; */
+        flex-basis: 30%;
+    }
+
+    .tech {
+        height: 3.5rem;
+        /* margin: 1.25rem; */
+
+    }
+
+    .seccion-sobre-mi {
+        height: fit-content;
+        padding: 5%;
+
+    }
+
+    .seccion-aptitudes {
+        height: fit-content;
+        padding: 5%;
+    }
+
+    .seccion-aptitudes li {
+        margin-left: -20px;
+    }
+
+    .seccion-tecnologias {
+        padding: 0;
+        margin: 0;
+        height: fit-content;
+        padding: 10% 0;
+    }
+
+    .seccion-cursos-proyectos {
+        background-color: var(--color-oscuro);
+        height: fit-content;
+        display: flex;
+        justify-content: flex-start;
+        flex-direction: column;
+        align-items: center;
+        color: #F2F2F2;
+        padding-top: 10px;
+    }
+
+    .cursos-proyectos {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        padding: 10px 5px 20px;
+        gap: 20px;
+    }
+
+    .card {
+        text-align: center;
+        width: 100%;
+        border: solid #F2F2F2 1px;
+        border-radius: 10px;
+        padding: 10px;
+
+    }
+
+    footer {
+        height: 25vh;
+    }
+
+    .red-social {
+        margin: 0 10px;
+        height: 3rem;
+    }
+
+    #contactame {
+        margin-top: 30px;
+    }
+}
+
+.html-5 {
+    order: 1;
+}
+
+.css-3 {
+    order: 2;
+}
+
+.javascript {
+    order: 3;
+}
+
+.c {
+    order: 4;
+}
+
+.cpp {
+    order: 5;
+}
+
+.excelpvba {
+    order: 6;
+}
+
+.animate {
+    order: 7;
+}
+
+.premiere {
+    order: 8;
+}
+
+.fireworks {
+    order: 9;
+}
